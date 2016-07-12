@@ -8,7 +8,7 @@ body	{
 	font-size: 12px;
 }
 header	{
-	height: 277px;
+	height: 300px;
 	width: 910px;
 	margin: 0 auto;
 	padding: 13px 0 0;
@@ -105,4 +105,61 @@ header	{
 	height: 237px;
 	margin-top: 14px;
 	background: url(../img/mainImage.jpg) no-repeat;
+}
+.mainNav	{
+	width: 909px;
+	height: 41px;
+	margin: 10px auto;
+	background: linear-gradient(rgb(80,88,86) 4%, rgb(40,44,48) 14%, rgb(2,2,2) 100%);
+	border-radius: 7px;
+	box-shadow: 1px 1px 4px gray;
+}
+.mainNav ul	{
+	margin: 7px 1px 7px 130px;
+	display: block;
+	height: 30px;
+	width: 496px;
+	float: left;
+}
+.mainNav ul li	{
+	font: 14px/19px Arial, sans-serif;
+	color: #fff;
+	/*width: 116px;*/
+	display: block;
+	float: left;
+	margin: 0 4px;
+	/*padding: 4px 0;*/
+}
+.mainNav ul li a	{
+	color: #b1bcc0;
+	padding: 4px 10px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+.mainNav ul li a:hover	{
+	background: linear-gradient(rgb(30,99,121), rgb(13,54,90));
+	border-radius: 14px;
+}
+.total	{
+	margin: 14px 11px 0;
+	height: 17px;
+	width: 216px;
+	float: right;
+	color: #fff;
+}
+.total a	{
+	color: #090a0b;
+}
+.total img	{
+	margin: -4px 0;
+}
+.total span	{
+	color: #b1bcc0;
+}
+.total .blue	{
+	color: #0d5a8f;
 }
