@@ -1,1 +1,108 @@
-﻿*
+﻿* {
+	box-sizing: border-box;
+}
+body	{
+	width: 1000px;
+	margin: 0 auto;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+header	{
+	height: 277px;
+	width: 910px;
+	margin: 0 auto;
+	padding: 13px 0 0;
+	position: relative;
+}
+.phones	{
+	float: left;
+	height: 27px;
+	width: auto;
+	margin-left: 6px;
+	padding: 10px 0 0 5px;
+	color: #213a4d;
+}
+.phones img	{
+	float: left;
+	height: 21px;
+	width: 22px;
+}
+.phones span	{
+	font: 18px/19px Arial, sans-serif;
+	margin: 5px 0;
+}
+.loginForm	{
+	width: 496px;
+	height: 33px;
+	float: left;
+	margin: 2px 14px;
+	background: linear-gradient(rgb(30,99,131), rgb(13,52,88));
+	border-radius: 4px;
+	box-shadow: 0 2px 4px gray;
+}
+.loginCenter	{
+	height: 100%;
+	
+}
+.loginCenter form	{
+	width: 278px;
+	float: left;
+	margin: 9px -6px 0 34px;
+}
+.loginCenter form input	{
+	float: left;
+	font: 12px/13px Arial, sans-serif;
+	width: 113px;
+	height: 20px;
+	padding: 0;
+	color: #51676f;
+	border: 1px solid #97a2a6;
+	border-radius: 3px;
+	margin: -3px 3px 0 3px;
+}
+
+.loginFormSubmit	{
+	float: right;
+	height: 13px;
+	width: 40px;
+	border: none;
+	background: none;
+	color: #fff;
+	font-size: 11px !important;
+	font-family: Arial, sans-serif;
+	text-align: center;
+	cursor: pointer;
+}
+.loginCenter span	{
+	color: #fff;
+	font-size: 11px;
+}
+.loginCenter a	{
+	margin: 1px 0;
+	color: #fff;
+	font: 11px/13px Arial, sans-serif;
+	text-decoration: none;
+}
+.regFog	{
+	float: left;
+	margin: 10px 1px;
+}
+.miniMenu	{
+	height: 24px;
+	width: 92px;
+	float: right;
+	margin: 4px 7px 0 0;
+	padding: 6px 4px 9px;
+	box-shadow: 0 1px 4px gray;
+	border-radius: 18px;
+}
+.miniMenu img	{
+	margin: 0 -1px 0 10px;
+}
+.mainImage	{
+	float: left;
+	width: 909px;
+	height: 237px;
+	margin-top: 14px;
+	background: url(../img/mainImage.jpg) no-repeat;
+}
